@@ -1,11 +1,10 @@
 import React from 'react';
-import HomePage from './components/Home/HomePage';
-// import './App.css'
+import Table from './components/Table';
 
 const App: React.FC = () => {
   return (
-    <div id="App">
-      <HomePage />
+    <div>
+      <Table />
     </div>
   );
 };

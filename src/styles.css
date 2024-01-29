@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply pb-10
+    }
+}
+
+@layer components {
+    .table {
+        @apply table-auto
+    }
+
+    .table-head-cell {
+        @apply border border-collapse border-slate-800 px-3 py-2
+    }
+
+    .table-body-cell {
+        @apply border border-slate-800 font-medium px-2
+    }
+
+    .table-body-cell-error {
+        @apply bg-red-300
+    }
+
+    .table-caption {
+        @apply caption-bottom opacity-0 font-bold
+    }
+
+    .table-caption-info {
+        @apply text-emerald-600
+    }
+
+    .table-caption-error {
+        @apply text-red-500
+    }
+
+    .table-caption-visible {
+        @apply opacity-100
+    }
+}

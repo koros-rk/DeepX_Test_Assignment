@@ -1,5 +1,6 @@
 // const webpack = require('webpack');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
+// const webpack = require('webpack');
 
 module.exports = {
   mode: 'development',
@@ -11,9 +12,9 @@ module.exports = {
   plugins: [
     // Specify development API URL
     // new webpack.DefinePlugin({
-    //     "process.env": {
-    //         NODE_ENV: JSON.stringify("development"),
-    //     },
+    //   'process.env': {
+    //     NODE_ENV: JSON.stringify('development'),
+    //   },
     // }),
     new ReactRefreshWebpackPlugin(),
   ],
